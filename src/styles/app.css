@@ -61,8 +61,8 @@ header {
   justify-content: center;
   -webkit-animation-name: start;
           animation-name: start;
-  -webkit-animation-duration: 0.3s;
-          animation-duration: 0.3s;
+  -webkit-animation-duration: 0.4s;
+          animation-duration: 0.4s;
   -webkit-animation-delay: 0.5s;
           animation-delay: 0.5s;
   -webkit-animation-fill-mode: backwards;
@@ -84,8 +84,8 @@ main {
   /* transactions */
 }
 main #balance {
-  -webkit-animation-delay: 0.7s;
-          animation-delay: 0.7s;
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
   margin: auto;
   margin-top: -8rem;
 }
@@ -122,8 +122,8 @@ main #balance .card.total p {
   color: #fff;
 }
 main #transactions {
-  -webkit-animation-delay: 0.8s;
-          animation-delay: 0.8s;
+  -webkit-animation-delay: 0.83s;
+          animation-delay: 0.83s;
   max-width: 100%;
   margin: auto;
   margin-top: 5rem;
@@ -323,16 +323,11 @@ button {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 10000;
     height: 100vh;
-    width: 100%;
   }
   to {
-    position: static;
-    height: 30rem;
     z-index: 1;
     height: 30rem;
-    width: 100%;
   }
 }
 @keyframes start {
@@ -340,16 +335,11 @@ button {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 10000;
     height: 100vh;
-    width: 100%;
   }
   to {
-    position: static;
-    height: 30rem;
     z-index: 1;
     height: 30rem;
-    width: 100%;
   }
 }
 .animDown {

@@ -1,5 +1,4 @@
 
-
 const
 
   Modal = {
@@ -255,4 +254,3 @@ const
   };
 
 App.init();
-
