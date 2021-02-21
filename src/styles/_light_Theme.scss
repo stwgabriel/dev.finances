@@ -1,0 +1,137 @@
+// variables
+$main-color : #ff7a00;
+
+/*Colors*/
+
+/* Main */
+main {
+
+  /* Balance */
+  #balance {
+
+    h2 {
+
+      color: #fff;
+    }
+
+    .card {
+
+      background: #fff;
+      box-shadow: 0 0 5px #0005;
+
+      h3 {
+
+        color: $main-color;
+      }
+    }
+
+    .card.total {
+
+      background: $main-color;
+
+      h3,
+      p {
+
+        color: #fff;
+      }
+    }
+  }
+
+  /* transactions */
+  #transactions {
+
+
+    .n_transa {
+
+      color: red;
+    }
+
+
+
+    #data__table {
+
+      tbody tr {
+
+        color: #fff;
+      }
+
+      tr {
+
+        th {
+
+          color     : #111a;
+          background: #fff;
+
+        }
+
+        td {
+
+          background: #fff;
+          color     : #000;
+
+          &.income {
+
+            color: #00A93C;
+          }
+
+          &.expense {
+
+            color: red;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* buttons */
+.save {
+
+  background: #ff7a00;
+  color     : #fff;
+}
+
+.cancel {
+
+  border: solid 1px red;
+  color : red;
+
+  &:hover {
+
+    border: solid 2px red;
+  }
+}
+
+$main-color: #ff7a00;
+
+/*Modal*/
+.modal__overlay {
+
+  .modal {
+
+    background: #fff;
+
+    h2 {
+
+      color: $main-color;
+    }
+
+    form {
+
+      .inp__group {
+
+        input {
+
+          border: solid 1px $main-color;
+          color : $main-color;
+        }
+      }
+
+      span {
+
+        color: #0008;
+
+      }
+    }
+  }
+}

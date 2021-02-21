@@ -1,0 +1,48 @@
+// setup
+@import "_setup";
+
+// global
+body {
+
+  background: #DFE0DF;
+}
+
+h2 {
+
+  font-size  : 2rem;
+  font-weight: 600;
+
+  margin-bottom: 2rem;
+}
+
+h3 {
+
+  font-size: 1.6rem;
+}
+
+.sr_only {
+
+  border-width: 0;
+
+  position: absolute;
+
+  width : 1px;
+  height: 1px;
+
+  padding: 0;
+  margin : -1px;
+
+  overflow: hidden;
+
+  clip       : rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+
+// modules
+@import "_header";
+@import "_main";
+@import "_modal";
+@import "_footer";
+@import "_buttons";
+@import "responsive";
+@import "_light_Theme";

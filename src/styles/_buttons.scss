@@ -1,0 +1,51 @@
+/* buttons */
+
+.form__btn {
+
+  border       : none;
+  border-radius: 1rem;
+  font-size    : 2rem;
+
+  width : 15rem;
+  height: 5rem;
+}
+
+a,
+button {
+
+  cursor: pointer;
+
+}
+
+.save {
+
+  background: #ff7a00;
+  color     : #fff;
+  opacity   : .7;
+
+  transition: opacity .4s;
+
+  &:hover {
+
+    opacity: 1;
+  }
+}
+
+.cancel {
+
+  border: solid 1px red;
+  color : red;
+
+  display        : flex;
+  justify-content: center;
+  align-items    : center;
+
+  opacity: .8;
+
+  &:hover {
+
+    border     : solid 2px red;
+    font-weight: 500;
+    opacity    : 1;
+  }
+}

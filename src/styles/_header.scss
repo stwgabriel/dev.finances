@@ -1,0 +1,21 @@
+/* Header */
+
+header {
+
+  background-image: linear-gradient(to left bottom, #ff8f2f, #f07e24, #e16e19, #d15d0c, #c24d00);
+  display         : flex;
+  align-items     : center;
+  justify-content : center;
+
+
+  width: 100%;
+
+  padding: 2rem 2rem 15rem;
+  
+  #logo {
+
+    margin: 2rem 0 0;
+
+    width: min(400px, 70%);
+  }
+}

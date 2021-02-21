@@ -1,0 +1,79 @@
+$main-color: #ff7a00;
+
+/*Modal*/
+.modal__overlay {
+
+  background: #000a;
+  display   : flex;
+  position  : fixed;
+  top       : 0;
+
+  height: 100%;
+  width : 100%;
+
+  visibility         : hidden;
+  transition-duration: visibility .3s;
+
+  .modal {
+
+    background   : #fff;
+    border-radius: 1rem;
+
+    width: clamp(25rem, 90vw, 50rem);
+
+    padding: 2rem;
+    margin : auto;
+
+    h2 {
+
+      color: $main-color;
+    }
+
+    form {
+
+      .inp__group {
+
+        display: flex;
+        margin : 1rem 0 2rem;
+
+        input {
+
+          border       : solid 1px $main-color;
+          border-radius: 1rem;
+          color        : $main-color;
+          font-size    : 1.7rem;
+
+          padding: 1rem;
+          width  : 100%;
+          margin : auto;
+
+          outline-offset: .3rem;
+
+          &:focus {
+
+            border: transparent;
+          }
+        }
+
+
+      }
+
+      span {
+
+        color: #0008;
+        font-size: 1.4rem;
+      }
+
+      .actions {
+
+        display        : flex;
+        justify-content: space-around;
+      }
+    }
+  }
+}
+
+.modal__overlay.active {
+
+  visibility: visible;
+}
