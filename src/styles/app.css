@@ -10,8 +10,17 @@
   font-size: 62.5%;
 }
 
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
 ::-webkit-scrollbar {
-  width: 0px;
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f07e24;
+  border-radius: 1rem;
 }
 
 a {
