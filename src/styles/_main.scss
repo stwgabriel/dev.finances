@@ -76,7 +76,8 @@ main {
 
     .n_transa {
 
-      color      : red;
+      color      : $main-color;
+      text-shadow: 1px 1px 1px #0005;
       font-size  : 1.5rem;
       font-weight: 600;
       opacity    : .7;

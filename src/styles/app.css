@@ -106,7 +106,8 @@ main #transactions h2 {
   margin: 4rem 0 3rem;
 }
 main #transactions .n_transa {
-  color: red;
+  color: #ff7a00;
+  text-shadow: 1px 1px 1px #0005;
   font-size: 1.5rem;
   font-weight: 600;
   opacity: 0.7;
