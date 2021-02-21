@@ -3,7 +3,7 @@
 const
 
   Modal = {
-    
+
     open() {
       document
         .querySelector('.modal__overlay')
@@ -49,36 +49,23 @@ const
     }
   },
 
-  // maik transaction
+  Storage = {
+
+    get() {
+
+      return JSON.parse(localStorage.getItem('dev.finances:transactions')) || [];
+    },
+
+    set(transaction) {
+
+
+      localStorage.setItem('dev.finances:transactions', JSON.stringify(transactions.data))
+    }
+  },
+
   transactions = {
 
-    data: [
-      {
-
-        id: 1,
-        description: 'energia',
-        amount: -20000,
-        date: '10/10/2021'
-      },
-      {
-        id: 2,
-        description: 'Trabalho',
-        amount: 1200000,
-        date: '20/10/2021'
-      },
-      {
-        id: 3,
-        description: 'pastel',
-        amount: -500,
-        date: '10/11/2021'
-      },
-      {
-        id: 4,
-        description: 'café',
-        amount: -200,
-        date: '20/11/2021'
-      }
-    ],
+    data: Storage.get(),
 
     add(Transaction) {
 
@@ -130,7 +117,8 @@ const
   DOM = {
 
     dataContainer: document.querySelector('#data__table tbody'),
-    addtransaction(transactions, index) {
+
+    addTransaction(transactions, index) {
 
       const tr = document.createElement('tr');
       tr.innerHTML = DOM.insertData(transactions, index);
@@ -245,13 +233,16 @@ const
       };
     }
   },
+
   App = {
 
     init() {
 
-      transactions.data.forEach(DOM.addtransaction);
+      transactions.data.forEach(DOM.addTransaction);
 
       DOM.upBalance();
+
+      Storage.set(transactions.data)
 
     },
 
@@ -262,4 +253,5 @@ const
     },
   };
 
-App.init()
+App.init();
+
