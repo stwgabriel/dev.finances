@@ -38,6 +38,7 @@ $main-color: #ff7a00;
 
         input {
 
+          background   : #fff;
           border       : solid 1px $main-color;
           border-radius: 1rem;
           color        : $main-color;
@@ -55,12 +56,18 @@ $main-color: #ff7a00;
           }
         }
 
+        #date {
+
+          color: $main-color;
+        }
 
       }
 
+
+
       span {
 
-        color: #0008;
+        color    : #0008;
         font-size: 1.4rem;
       }
 

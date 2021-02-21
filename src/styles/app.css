@@ -204,6 +204,7 @@ main #transactions #data__table tr td:last-child {
   margin: 1rem 0 2rem;
 }
 .modal__overlay .modal form .inp__group input {
+  background: #fff;
   border: solid 1px #ff7a00;
   border-radius: 1rem;
   color: #ff7a00;
@@ -215,6 +216,9 @@ main #transactions #data__table tr td:last-child {
 }
 .modal__overlay .modal form .inp__group input:focus {
   border: transparent;
+}
+.modal__overlay .modal form .inp__group #date {
+  color: #ff7a00;
 }
 .modal__overlay .modal form span {
   color: #0008;
