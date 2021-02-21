@@ -10,8 +10,9 @@ main {
   /* Balance */
   #balance {
 
-    margin    : auto;
-    margin-top: -8rem;
+    animation-delay: .7s;
+    margin         : auto;
+    margin-top     : -8rem;
 
     h2 {
 
@@ -65,6 +66,8 @@ main {
   /* transactions */
   #transactions {
 
+    animation-delay: .8s;
+
     max-width : 100%;
     margin    : auto;
     margin-top: 5rem;
@@ -78,7 +81,7 @@ main {
 
       color      : $main-color;
       text-shadow: 1px 1px 1px #0005;
-      font-size  : 1.5rem;
+      font-size  : clamp(1.2rem, 5vw, 2rem);
       font-weight: 600;
       opacity    : .7;
 

@@ -1,0 +1,43 @@
+@keyframes Down {
+
+   from {
+      opacity  : 0;
+      transform: translateY(-50px)
+   }
+
+   to {
+      opacity  : 100%;
+      transform: translateY(0)
+   }
+}
+
+@keyframes start {
+
+   from {
+
+      position: absolute;
+      top     : 0;
+      left    : 0;
+      z-index : 10000;
+      height  : 100vh;
+
+      width: 100%;
+   }
+
+   to {
+
+      position: static;
+      height  : 30rem;
+      z-index : 1;
+      height  : 30rem;
+      width   : 100%;
+   }
+}
+
+.animDown {
+
+   animation-name    : Down;
+   animation-duration: .3s;
+
+   animation-fill-mode: backwards
+}

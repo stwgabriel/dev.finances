@@ -23,6 +23,7 @@ button {
   color     : #fff;
   opacity   : .7;
 
+  margin    : 5px;
   transition: opacity .4s;
 
   &:hover {
@@ -39,6 +40,8 @@ button {
   display        : flex;
   justify-content: center;
   align-items    : center;
+
+  margin: 5px;
 
   opacity: .8;
 
