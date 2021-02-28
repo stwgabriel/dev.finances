@@ -22,7 +22,7 @@ Este projeto foi desenvolvido em HTML, CSS e JavaScript e os melhores metodos pa
 ![image](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
 ![image](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-### Social & Proficional
+### Social & Profissional
 
 <a href='https://www.instagram.com/stw_gabriel/'><img src='https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white'></img> </a>
 <a href='https://www.linkedin.com/in/stwgabriel/'><img src='https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white'></img> </a>
