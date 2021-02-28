@@ -9,7 +9,7 @@ header {
 
   animation-name     : start;
   animation-duration : .4s;
-  animation-delay    : .5s;
+  animation-delay    : .4s;
   animation-fill-mode: backwards;
 
   height: 30rem;
@@ -21,6 +21,6 @@ header {
 
     margin: -5rem 0 0;
 
-    width: min(400px, 70%);
+    width: clamp(20rem, 40vw, 35rem);
   }
 }

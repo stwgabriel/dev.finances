@@ -63,8 +63,8 @@ header {
           animation-name: start;
   -webkit-animation-duration: 0.4s;
           animation-duration: 0.4s;
-  -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
   -webkit-animation-fill-mode: backwards;
           animation-fill-mode: backwards;
   height: 30rem;
@@ -73,7 +73,7 @@ header {
 }
 header #logo {
   margin: -5rem 0 0;
-  width: min(400px, 70%);
+  width: clamp(20rem, 40vw, 35rem);
 }
 
 /* Main */
