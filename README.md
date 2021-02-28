@@ -8,7 +8,7 @@ veja o app em ação: https://stwgabriel.github.io/Dev.Finances/
 
 
 ## Descrição
-o Dev Finances é uma aplicaçao de gestao de finanças.
+O Dev Finances é uma aplicaçao de gestao de finanças.
 
 ## O projeto
 
