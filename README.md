@@ -1,7 +1,7 @@
 # Dev.Finance$
 
 
-veja o app em ação:
+veja o app em ação: https://stwgabriel.github.io/Dev.Finances/
 
 
 ![Dev.Finances Preview](./src/assets/DevFinances-preview.gif)
