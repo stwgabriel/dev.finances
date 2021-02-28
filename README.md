@@ -2,7 +2,7 @@
 
 
 veja o app em ação:
-https://moveit-next-stwgabriel.vercel.app/
+
 
 ![Dev.Finances Preview](./src/assets/DevFinances-preview.gif)
 
