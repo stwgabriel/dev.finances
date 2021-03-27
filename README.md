@@ -12,7 +12,7 @@ O Dev Finances é uma aplicaçao de gestao de finanças.
 
 ## O projeto
 
-Este projeto foi desenvolvido em HTML, CSS e JavaScript e os melhores metodos para obter uma aplicação solida e funcional.
+Este projeto foi desenvolvido em HTML, CSS e JavaScript.
 
 
 ### linguagens e ferramentas utilizadas
