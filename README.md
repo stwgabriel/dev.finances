@@ -16,17 +16,18 @@ Foi usado HTML e CSS para desenvolver a interface e animações e Javascript par
 
 ### linguagens e ferramentas utilizadas
 
-![image](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![image](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![image](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
-![image](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+   ![icon](https://github.com/StwGabriel/Assets/blob/main/icons/javascript-icon.svg)
+   ![icon](https://github.com/StwGabriel/Assets/blob/main/icons/html5-icon.svg)
+   ![icon](https://github.com/StwGabriel/Assets/blob/main/icons/sass-icon.svg)
+   ![icon](https://github.com/StwGabriel/Assets/blob/main/icons/git-icon.svg)
+
 
 ### Social & Profissional
 
-<a href='https://www.instagram.com/stwgabriel/'><img src='https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white'></img> </a>
-<a href='https://www.linkedin.com/in/stwgabriel/'><img src='https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white'></img> </a>
-<a href='https://github.com/StwGabriel'><img src='https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white'></img> </a>
-<a href='https://www.youtube.com/channel/UCQdFFC-ZOxK7hfsdq5qQ--g'><img src='https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white'></img> </a>
-<a href='mailto:gabbrielsilvactt@gmail.com?Subject=Vim%20Pelo%20GitHub%20/%20I%20came%20through%20GitHub'><img src='https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white'></img></a>
+   [![shield](https://github.com/StwGabriel/Assets/blob/main/readme-shields/linkedin-shield.svg)](https://www.linkedin.com/in/stwgabriel/)
+   [![shield](https://github.com/StwGabriel/Assets/blob/main/readme-shields/github-shield.svg)](https://github.com/StwGabriel)
+   [![shield](https://github.com/StwGabriel/Assets/blob/main/readme-shields/instagram-shield.svg)](https://www.instagram.com/stwgabriel/)
+   [![shield](https://github.com/StwGabriel/Assets/blob/main/readme-shields/twitter-shield.svg)](https://www.twitter.com/stwgabriel_/)
+   [![shield](https://github.com/StwGabriel/Assets/blob/main/readme-shields/email-shield.svg)](mailto:gabrielstw@pm.me?Subject=Vim%20Pelo%20GitHub)
 
-Link Rapido: https://bit.ly/Stw_Gabriel
+[Link Tree](https://cutt.ly/stwgabriel)
