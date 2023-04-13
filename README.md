@@ -1,33 +1,47 @@
 # Dev.Finance$
 
+## Índice
 
-veja o app em ação: https://stwgabriel.github.io/dev.finances/
+- [Sobre](#sobre)
+- [Preview](#preview)
+- [Links](#links)
+- [Para desenvolvedores](#para-desenvolvedores)
+  - [Tecnologias](#tecnologias) 
+  - [Rodando localmente](#rodando-localmente)
+  - [Licença](#licença)
+  
+### Sobre
 
+Aplicação de gestão de finanças focadas em desenvolvedores.
+
+### Preview
 
 ![Dev.Finances Preview](./src/assets/DevFinances-preview.gif)
 
+### Links
 
-## Descrição
-O Dev Finances é uma aplicaçao de gestao de finanças.
-
-## O projeto
-
-Foi usado HTML e CSS para desenvolver a interface e animações e Javascript para as interações com LocalStorage para salvar os dados no browser.
-
-### linguagens e ferramentas utilizadas
-
-   ![icon](https://github.com/StwGabriel/Assets/blob/main/icons/javascript-icon.svg)
-   ![icon](https://github.com/StwGabriel/Assets/blob/main/icons/html5-icon.svg)
-   ![icon](https://github.com/StwGabriel/Assets/blob/main/icons/sass-icon.svg)
-   ![icon](https://github.com/StwGabriel/Assets/blob/main/icons/git-icon.svg)
+Visualize a página através desse [link](https://stwgabriel.github.io/dev.finances/).
 
 
-### Social & Profissional
+## Para desenvolvedores
 
-   [![shield](https://github.com/StwGabriel/Assets/blob/main/readme-shields/linkedin-shield.svg)](https://www.linkedin.com/in/stwgabriel/)
-   [![shield](https://github.com/StwGabriel/Assets/blob/main/readme-shields/github-shield.svg)](https://github.com/StwGabriel)
-   [![shield](https://github.com/StwGabriel/Assets/blob/main/readme-shields/instagram-shield.svg)](https://www.instagram.com/stwgabriel/)
-   [![shield](https://github.com/StwGabriel/Assets/blob/main/readme-shields/twitter-shield.svg)](https://www.twitter.com/stwgabriel_/)
-   [![shield](https://github.com/StwGabriel/Assets/blob/main/readme-shields/email-shield.svg)](mailto:gabrielstw@pm.me?Subject=Vim%20Pelo%20GitHub)
+### Tecnologias
 
-[Link Tree](https://cutt.ly/stwgabriel)
+HTML - Linguagem de marcação para estruturação da página. <br />
+CSS - Linguagem de estilização para definição de estilos aos elementos. <br />
+Javascript - Linguagem de programação. <br />
+SASS - Pré-processador CSS para facilitar a delegação de estilos e outras funcionalidades. <br />
+
+### Rodando localmente
+
+Clone o projeto
+
+```bash
+  git clone https://github.com/stwgabriel/dev.finances
+```
+
+Uma vez clonado o projeto, por se tratar de algo construído apenas com HTML, CSS e JS puro, basta executar o arquivo index.html no seu navegador.
+
+### Licença
+
+[MIT](https://choosealicense.com/licenses/mit/)
